@@ -1,9 +1,9 @@
-import { NavLink, useParams } from 'react-router-dom';
+import { NavLink, useParams, Navigate } from 'react-router-dom';
 import useBackgroundImage from '../../hooks/bg_image/index';
 import data from '../../data.json';
-import { getNavLinkClassName } from '../../functions/className';
-import { CustomTechnologyMain, CustomTechnologySecondaryTitle } from './styles';
 import { CustomParagraph } from '../../global-styles';
+import { CustomTechnologyMain, CustomTechnologySecondaryTitle } from './styles';
+import { getNavLinkClassName } from '../../functions/className';
 import technologyBgImage from '../../assets/technology/background-technology-desktop.jpg';
 
 const Technology = () => {

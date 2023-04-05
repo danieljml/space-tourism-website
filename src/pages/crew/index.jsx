@@ -1,9 +1,9 @@
-import { NavLink, useParams } from 'react-router-dom';
+import { NavLink, useParams, Navigate } from 'react-router-dom';
 import useBackgroundImage from '../../hooks/bg_image/index';
 import data from '../../data.json';
-import { getNavLinkClassName } from '../../functions/className';
-import { CustomCrewMain, CustomCrewSecondaryTitle } from './styles';
 import { CustomParagraph } from '../../global-styles';
+import { CustomCrewMain, CustomCrewSecondaryTitle } from './styles';
+import { getNavLinkClassName } from '../../functions/className';
 import crewBgImage from '../../assets/crew/background-crew-desktop.jpg';
 
 const Crew = () => {

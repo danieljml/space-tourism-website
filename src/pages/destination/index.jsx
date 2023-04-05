@@ -1,8 +1,9 @@
-import { NavLink, useParams } from 'react-router-dom';
+import { NavLink, useParams, Navigate } from 'react-router-dom';
 import useBackgroundImage from '../../hooks/bg_image/index';
 import data from '../../data.json';
+import { CustomParagraph } from '../../global-styles';
+import { CustomDestinationMain, CustomDestinationPrincipalTitle, CustomDestinationSecondaryTitle, CustomDestinationParagraph } from './styles';
 import { getNavLinkClassName } from '../../functions/className';
-import { CustomParagraph, CustomDestinationMain, CustomDestinationPrincipalTitle, CustomDestinationSecondaryTitle, CustomDestinationParagraph } from './styles';
 import destinationBgImage from '../../assets/destination/background-destination-desktop.jpg';
 
 const Destination = () => {

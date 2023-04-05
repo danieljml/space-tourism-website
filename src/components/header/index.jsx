@@ -1,8 +1,8 @@
 import { memo } from 'react';
 import { NavLink } from 'react-router-dom';
-import Logo from '../../assets/shared/logo.svg';
-import { getNavLinkClassName } from '../../functions/className';
 import { CustomHeader, CustomHeaderList, CustomHeaderListItem } from './styles';
+import { getNavLinkClassName } from '../../functions/className';
+import Logo from '../../assets/shared/logo.svg';
 
 const Header = () => {
   const className = getNavLinkClassName;
