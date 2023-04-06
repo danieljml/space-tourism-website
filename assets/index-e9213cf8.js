@@ -167,7 +167,7 @@ Error generating stack: `+o.message+`
   & .number {
     font-weight: 700;
   }
-`,Xo=({isActive:e,isPending:t})=>t?"pending":e?"active link":"link",$0="/space-tourism-website/assets/logo-43040818.svg",O0=()=>{const e=Xo;return te(T0,{children:[A("img",{src:$0,alt:"logo"}),A("span",{className:"line"}),A(z0,{children:[{title:"Home",link:"/"},{title:"Destination",link:"/destination"},{title:"Crew",link:"/crew"},{title:"Technology",link:"/technology"}].map((n,r)=>A(L0,{children:te(Ro,{to:`/index${n.link}`,className:e,children:[te("span",{className:"number",children:["0",r]}),n.title]})},n.title))})]})},A0=N.memo(O0);function Zo(e){N.useEffect(()=>(document.body.style.backgroundImage=`url(${e})`,()=>{document.body.style.backgroundImage=""}),[e])}const I0=fe(br)`
+`,Xo=({isActive:e,isPending:t})=>t?"pending":e?"active link":"link",$0="/space-tourism-website/assets/logo-43040818.svg",O0=()=>{const e=Xo;return te(T0,{children:[A("img",{src:$0,alt:"logo"}),A("span",{className:"line"}),A(z0,{children:[{title:"Home",link:"/"},{title:"Destination",link:"/destination"},{title:"Crew",link:"/crew"},{title:"Technology",link:"/technology"}].map((n,r)=>A(L0,{children:te(Ro,{to:n.link,className:e,children:[te("span",{className:"number",children:["0",r]}),n.title]})},n.title))})]})},A0=N.memo(O0);function Zo(e){N.useEffect(()=>(document.body.style.backgroundImage=`url(${e})`,()=>{document.body.style.backgroundImage=""}),[e])}const I0=fe(br)`
   grid-template-columns: auto auto;
   margin-top: 231px;
   padding-bottom: 131px;
@@ -492,4 +492,4 @@ Error generating stack: `+o.message+`
     transition: all 1s ease;
     padding: 10px 15px;
   }
-`,lv=()=>{const e=tr();return te(rv,{children:[A(qr,{children:"404 - Page Not Found"}),te(pt,{children:["The page you are looking for could not be found: ",A("code",{children:e.pathname})]}),A(Oa,{to:"/",children:"Go back to the homepage"})]})};function ov(){return te(Pc,{children:[A(A0,{}),te(vg,{basename:"/index",children:[A(wn,{exat:!0,path:"/",element:A(F0,{})}),A(wn,{path:"/destination/:id?",element:A(K0,{})}),A(wn,{path:"/crew/:id?",element:A(q0,{})}),A(wn,{path:"/technology/:id?",element:A(nv,{})}),A(wn,{path:"*",element:A(lv,{})})]})]})}zi.createRoot(document.getElementById("root")).render(A(Xn.StrictMode,{children:A(xg,{children:A(ov,{})})}));
+`,lv=()=>{const e=tr();return te(rv,{children:[A(qr,{children:"404 - Page Not Found"}),te(pt,{children:["The page you are looking for could not be found: ",A("code",{children:e.pathname})]}),A(Oa,{to:"/",children:"Go back to the homepage"})]})};function ov(){return te(Pc,{children:[A(A0,{}),te(vg,{children:[A(wn,{exat:!0,path:"/",element:A(F0,{})}),A(wn,{path:"/destination/:id?",element:A(K0,{})}),A(wn,{path:"/crew/:id?",element:A(q0,{})}),A(wn,{path:"/technology/:id?",element:A(nv,{})}),A(wn,{path:"*",element:A(lv,{})})]})]})}zi.createRoot(document.getElementById("root")).render(A(Xn.StrictMode,{children:A(xg,{children:A(ov,{})})}));
