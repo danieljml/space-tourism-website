@@ -167,7 +167,7 @@ Error generating stack: `+o.message+`
   & .number {
     font-weight: 700;
   }
-`,Xo=({isActive:e,isPending:t})=>t?"pending":e?"active link":"link",$0="/space-tourism-website/assets/logo-43040818.svg",O0=()=>{const e=Xo;return te(T0,{children:[A("img",{src:$0,alt:"logo"}),A("span",{className:"line"}),A(z0,{children:[{title:"Home",link:"/"},{title:"Destination",link:"/destination"},{title:"Crew",link:"/crew"},{title:"Technology",link:"/technology"}].map((n,r)=>A(L0,{children:te(Ro,{to:n.link,className:e,children:[te("span",{className:"number",children:["0",r]}),n.title]})},n.title))})]})},A0=N.memo(O0);function Zo(e){N.useEffect(()=>(document.body.style.backgroundImage=`url(${e})`,()=>{document.body.style.backgroundImage=""}),[e])}const I0=fe(br)`
+`,Xo=({isActive:e,isPending:t})=>t?"pending":e?"active link":"link",$0="/space-tourism-website/assets/logo-43040818.svg",O0=()=>{const e=Xo;return te(T0,{children:[A("img",{src:$0,alt:"logo"}),A("span",{className:"line"}),A(z0,{children:[{title:"Home",link:"/"},{title:"Destination",link:"/destination"},{title:"Crew",link:"/crew"},{title:"Technology",link:"/technology"}].map((n,r)=>A(L0,{children:te(Ro,{to:`/space-tourism-website${n.link}`,className:e,children:[te("span",{className:"number",children:["0",r]}),n.title]})},n.title))})]})},A0=N.memo(O0);function Zo(e){N.useEffect(()=>(document.body.style.backgroundImage=`url(${e})`,()=>{document.body.style.backgroundImage=""}),[e])}const I0=fe(br)`
   grid-template-columns: auto auto;
   margin-top: 231px;
   padding-bottom: 131px;
